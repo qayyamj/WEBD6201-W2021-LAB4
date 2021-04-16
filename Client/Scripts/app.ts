@@ -90,7 +90,7 @@ namespace core
             }
           }
 
-          location.href = '/contact';
+          location.href = '/home';
         });
     }
 
