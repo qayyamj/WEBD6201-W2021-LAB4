@@ -1,3 +1,4 @@
+
 namespace core
 {
    
@@ -80,6 +81,8 @@ namespace core
 
           if(subscribeCheckbox.checked)
           {
+
+            
             let contact = new core.Contact(fullName.value, contactNumber.value, emailAddress.value);
 
             if(contact.serialize())
