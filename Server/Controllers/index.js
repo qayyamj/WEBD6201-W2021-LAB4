@@ -58,7 +58,7 @@ function ProcessLoginPage(req, res, next) {
             return next(err);
         }
         if (!user) {
-            req.flash('loginMessage', 'Authenticatin Error');
+            req.flash('loginMessage', 'Authentication Error');
             return res.redirect('/login');
         }
         req.login(user, (err) => {
